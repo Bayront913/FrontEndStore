@@ -9,9 +9,10 @@
         --fuentePrincipal: "Staatliches", sans-serif;
     } 
 
+    /* Globales importantes */
     html {
-        font-size: 62.5%;
-        box-sizing: border-box;
+        font-size: 62.5%; /*combierte un 1 rem en 10px, evita usar la calculadora*/
+        box-sizing: border-box; 
         scroll-snap-type: y mandatory;
     }
 
@@ -23,7 +24,6 @@
         background-color: var(--primario);
         font-size: 1.6rem;
         line-height: 1.5;
-        
     }
 
     p {
